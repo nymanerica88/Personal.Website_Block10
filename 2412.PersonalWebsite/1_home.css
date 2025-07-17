@@ -7,12 +7,13 @@ body {
 }
 main{
     display: grid;
-    background-color:rgb(217, 145, 221);
+    background-color:rgb(230, 172, 234);
     grid-template-columns: 2;
     grid-template-rows:4;
     width: 650px;
     padding: 15px;
     text-align:center;
+    /* css code to center the <main> */
     position: absolute;
     top: 50%;
     left: 50%;
