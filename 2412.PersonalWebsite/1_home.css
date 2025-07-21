@@ -14,6 +14,10 @@ nav {
   background-color: rgb(73, 1, 73);
   color: white;
   border: 2px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -49,7 +53,6 @@ nav ul li {
 
 #links li {
   padding: 1em 0.75em;
-  /* border-right: 2px solid lightgray; */
 }
 
 #links li a {
@@ -71,15 +74,11 @@ main {
   padding: 15px;
   max-width: 800px;
   text-align: center;
-  margin-bottom: 100px;
+  /* margin-bottom: 1000px; */
   margin: 0 auto;
+  margin-top: 70px;
   border-left: 8px solid purple;
   border-right: 8px solid purple;
-  /* css code to center the <main> */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 #adjectives {
@@ -102,6 +101,7 @@ main {
   text-align: center;
   border: 2px black solid;
   grid-column: 1;
+  margin-top: 100px;
 }
 
 #quote {
@@ -109,6 +109,8 @@ main {
   grid-column: 1;
   grid-row: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 55px;
   text-align: center;
 }
 
@@ -127,9 +129,9 @@ footer {
   align-items: center;
   border: 2px solid black;
   background-color: rgb(73, 1, 73);
-  /* position: fixed;
+  position: fixed;
   bottom: 0;
-  left: 0; */
+  left: 0;
   width: 100%;
 }
 
