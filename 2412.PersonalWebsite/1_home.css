@@ -2,9 +2,9 @@ body {
   background-image: linear-gradient(
     to bottom right,
     rgb(176, 3, 176),
-    white,
+    gray,
     rgb(254, 130, 254),
-    white
+    gray
   );
 }
 
@@ -77,8 +77,8 @@ main {
   /* margin-bottom: 1000px; */
   margin: 0 auto;
   margin-top: 70px;
-  border-left: 8px solid purple;
-  border-right: 8px solid purple;
+  border-left: 8px solid rgb(72, 72, 72);
+  border-right: 8px solid rgb(72, 72, 72);
 }
 
 #adjectives {
