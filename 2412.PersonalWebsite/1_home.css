@@ -1,12 +1,19 @@
 body {
-  background-color: rgb(255, 200, 255);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(176, 3, 176),
+    white,
+    rgb(254, 130, 254),
+    white
+  );
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: purple;
+  background-color: rgb(73, 1, 73);
   color: white;
+  border: 2px solid black;
 }
 
 nav ul {
@@ -26,6 +33,20 @@ nav ul li {
   text-align: end;
 }
 
+#name {
+  font-size: 40px;
+  font-family: Brush Script MT;
+  padding-right: 15px;
+  margin-bottom: -10px;
+}
+
+#degrees {
+  padding-right: 15px;
+  padding-top: -100px;
+  padding-bottom: 10px;
+  color: rgb(242, 242, 147);
+}
+
 #links li {
   padding: 1em 0.75em;
   /* border-right: 2px solid lightgray; */
@@ -33,6 +54,12 @@ nav ul li {
 
 #links li a {
   color: white;
+  font-size: 18px;
+}
+
+#links {
+  padding: 0px;
+  padding-top: 13px;
 }
 
 main {
@@ -46,6 +73,8 @@ main {
   text-align: center;
   margin-bottom: 100px;
   margin: 0 auto;
+  border-left: 8px solid purple;
+  border-right: 8px solid purple;
   /* css code to center the <main> */
   /* position: absolute;
   top: 50%;
@@ -64,7 +93,7 @@ main {
 #tagline {
   font-size: 20px;
   font-style: italic;
-  padding-top: 85px;
+  padding-top: 50px;
   text-align: center;
   margin-bottom: 75px;
 }
@@ -97,9 +126,10 @@ footer {
   justify-content: center;
   align-items: center;
   border: 2px solid black;
-  position: fixed;
+  background-color: rgb(73, 1, 73);
+  /* position: fixed;
   bottom: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
 }
 
