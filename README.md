@@ -17,6 +17,20 @@ Please note the following regarding my Personal Website:
 
 3. The responsive media CSS appears at the bottom of each CSS page so that it did not override the code elsewhere on the page.
 
+Screenshots of the Finished Personal Website are below for reference:
+
+HOME
+<img width="959" height="415" alt="1_HomePageSnippet" src="https://github.com/user-attachments/assets/47b960ab-67f5-4390-898a-773e26e7b34c" />
+
+ABOUT ME
+<img width="959" height="413" alt="2_AboutMeSnippet" src="https://github.com/user-attachments/assets/22f38f47-0983-4c55-b44a-003e41a3bbb3" />
+
+PORTFOLIO
+<img width="959" height="415" alt="3_PortfolioSnippet" src="https://github.com/user-attachments/assets/2a809bb0-c3a8-48f1-b621-079714941f7d" />
+
+CONTACT
+<img width="959" height="416" alt="4_ContactSnippet" src="https://github.com/user-attachments/assets/2043f666-c45c-4ab5-abf9-e7e6b2ea27bc" />
+
 Thanks, 
 Erica Nyman
 
