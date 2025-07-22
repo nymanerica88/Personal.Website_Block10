@@ -32,6 +32,7 @@ PORTFOLIO
 CONTACT
 <img width="959" height="416" alt="4_ContactSnippet" src="https://github.com/user-attachments/assets/2043f666-c45c-4ab5-abf9-e7e6b2ea27bc" />
 
-Thanks, 
+Thanks,
+
 Erica Nyman
 
