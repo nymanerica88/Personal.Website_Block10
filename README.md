@@ -20,6 +20,7 @@ Please note the following regarding my Personal Website:
 Screenshots of the Finished Personal Website are below for reference:
 
 HOME
+
 <img width="959" height="415" alt="1_HomePageSnippet" src="https://github.com/user-attachments/assets/47b960ab-67f5-4390-898a-773e26e7b34c" />
 
 ABOUT ME
