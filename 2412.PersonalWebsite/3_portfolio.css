@@ -36,7 +36,7 @@ nav ul li {
   margin-bottom: -10px;
 }
 
-#aboutme {
+#portfolio {
   padding-right: 15px;
   padding-top: -100px;
   padding-bottom: 10px;
@@ -204,7 +204,7 @@ footer img {
 }
 
 @media (max-width: 800px) {
-  #degrees {
+  #portfolio {
     display: flex;
     color: rgb(122, 246, 34);
     justify-content: center;

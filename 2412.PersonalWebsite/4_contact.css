@@ -125,7 +125,7 @@ footer img {
 }
 
 @media (max-width: 800px) {
-  #degrees {
+  #contactme {
     display: flex;
     color: rgb(122, 246, 34);
     justify-content: center;
