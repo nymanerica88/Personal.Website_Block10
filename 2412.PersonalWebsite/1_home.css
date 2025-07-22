@@ -109,7 +109,6 @@ main {
 }
 
 #quote {
-  float: left;
   grid-column: 1;
   grid-row: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -145,6 +144,8 @@ footer img {
 
 @media (max-width: 800px) {
   #degrees {
+    display: flex;
     color: rgb(122, 246, 34);
+    justify-content: center;
   }
 }

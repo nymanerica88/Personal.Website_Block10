@@ -36,7 +36,7 @@ nav ul li {
   margin-bottom: -10px;
 }
 
-#aboutme {
+#contactme {
   padding-right: 15px;
   padding-top: -100px;
   padding-bottom: 10px;
@@ -72,15 +72,8 @@ body {
     gray
   );
 }
-.aboutmeimg {
-  height: 200px;
-  width: 400px;
-  border: 2px solid purple;
-}
+
 main {
-  /* display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 2; */
   background-color: rgb(230, 172, 234);
   width: 850px;
   padding: 15px;
@@ -92,44 +85,26 @@ main {
   border-right: 8px solid rgb(72, 72, 72);
 }
 
-section {
+#contacticons {
+  border: 5px solid purple;
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
+  /* align-items: center; */
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: -5px;
+}
+
+#thanks {
   margin: 10px;
-  align-items: center;
 }
 
-h2 {
-  background-color: rgb(239, 239, 239);
-  border: gray solid 2px;
-}
-
-#experience {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-#education {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-#certs {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-#hobbies {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-#wrapper {
-  display: grid;
-  margin: 3px;
-  width: 125px;
-}
-
-#hobbydescription {
-  margin-bottom: 75px;
+#inputs {
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
 /* FOOTER */

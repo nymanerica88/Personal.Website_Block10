@@ -202,3 +202,11 @@ footer {
 footer img {
   height: 70px;
 }
+
+@media (max-width: 800px) {
+  #degrees {
+    display: flex;
+    color: rgb(122, 246, 34);
+    justify-content: center;
+  }
+}

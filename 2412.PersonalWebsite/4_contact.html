@@ -1,15 +1,80 @@
-<form action="">
-  <label>Name</label>
-  <input type="text" placeholder="Enter First & Last Name" />
-  <br />
-  <label>E-mail</label>
-  <input type="text" placeholder="sample@domain.com" />
-  <br />
-  <label>Phone</label>
-  <input type="text" placeholder="###-###-####" />
-  <br />
-  <label>Message</label>
-  <input type="text" placeholder="Leave a Message" />
-  <br />
-  <button>Submit</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./4_contact.css" />
+  </head>
+  <body>
+    <header id="taskbar">
+      <nav>
+        <ul id="links">
+          <li>
+            <a
+              href="http://127.0.0.1:5500/block10/2412.PersonalWebsite/1_home.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="http://127.0.0.1:5500/block10/2412.PersonalWebsite/2_about.html"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="http://127.0.0.1:5500/block10/2412.PersonalWebsite/3_portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="http://127.0.0.1:5500/block10/2412.PersonalWebsite/4_contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <ul id="credentials">
+          <li id="name">Erica Nyman</li>
+          <li id="contactme">Contact Information</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="wrapper">
+        <section id="contactmessage">
+          <img id="contacticons" class="contactinfo" src="./ContactMe2.jpg" />
+          <h3 id="thanks">
+            Thank you for taking the time to review my personal website!
+            <br />
+            If you'd like to contact me, please feel free
+            <br />
+            to leave a message using the form directly below.
+          </h3>
+          <form id="inputs" action="">
+            <label>Name</label>
+            <input type="text" placeholder="Enter First + Last Name" />
+            <br />
+            <label>E-mail</label>
+            <input type="text" placeholder="sample@domain.com" />
+            <br />
+            <label>Phone</label>
+            <input type="text" placeholder="###-###-####" />
+            <br />
+            <label>Message</label>
+            <input type="text" placeholder="Leave a Message" />
+            <br />
+            <button>Submit</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/erica-nyman-5846b351/">
+        <img id="logo" src="TransparentLinkedIn_logo.svg copy.png" />
+      </a>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
